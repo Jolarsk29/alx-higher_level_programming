@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 
-# Author - Tolulope Fakunle
-
-
+# Author - Oluwatomisin Omojola
 
 def islower(c):
 
@@ -13,4 +11,4 @@ def islower(c):
         return True
 
     else:
-
+        return False
