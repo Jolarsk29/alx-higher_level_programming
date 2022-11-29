@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
-# Author - Oluwatomisin Omojola
+# Author -Oluwatomisin Omojola
 
 def pow(a, b):
-return (a ** b)
+
+    return (a ** b)
