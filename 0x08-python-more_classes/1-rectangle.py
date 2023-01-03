@@ -21,7 +21,7 @@ class Rectangle:
     def width(self):
         """retrieves width attribute"""
         return self.__width
-    
+
     @width.setter
     def width(self, value):
         """sets width attribute"""
