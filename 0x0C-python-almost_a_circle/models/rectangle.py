@@ -129,7 +129,6 @@ class Rectangle(Base):
 #        print("{}".format(rectangle))
 
         print("\n" * self.y, end="")
-        
         for i in range(self.height):
             rectangle += (" " * self.x) + (print_symbol*self.width) + "\n"
         print(rectangle, end="")
@@ -154,7 +153,6 @@ class Rectangle(Base):
             for key, val in kwargs.items():
                 self.__setattr__(key, val)
             return
-        
         try:
             self.id = args[0]
             self.width = args[1]
